@@ -1,0 +1,42 @@
+@charset 'UTF-8';
+
+// 1. Abstracts
+@import
+    'abstracts/variables',
+    'abstracts/functions',
+    'abstracts/mixins',
+    'abstracts/placeholders';
+
+
+// 2. Vendors
+@import
+    'vendor/normalize',
+    'vendor/bootstrap',
+    'vendor/jquery-ui';
+
+
+// 3. Base
+@import
+    'base/typography';
+
+
+// 4. Layout
+@import
+    'layout/header',
+    'layout/footer',
+    'layout/forms',
+    'layout/navigation';
+
+
+// 5. Components
+@import
+    'components/buttons',
+    'components/carousel',
+    'components/cover',
+    'components/dropdown';
+
+
+// 6. Page Styles
+@import
+    'pages/home',
+    'pages/contact';
